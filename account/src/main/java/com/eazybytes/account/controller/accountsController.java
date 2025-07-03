@@ -1,9 +1,18 @@
 package com.eazybytes.account.controller;
 
+import com.eazybytes.account.constants.AccountsConstants;
+import com.eazybytes.account.dto.CustomerDto;
+import com.eazybytes.account.dto.ResponseDto;
+import com.eazybytes.account.service.IAccountsService;
+import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,10 +20,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/api", produces = {MediaType.APPLICATION_JSON_VALUE})
 @AllArgsConstructor
 @Validated
-public class accountsController {
+public class AccountsController {
 
-   @PostMapping("/create")
-    public String hello() {
-        return "hello world";
+    @Autowired
+    private IAccountsService iAccountsService;
+
+    @PostMapping("/create")
+    public ResponseEntity<ResponseDto> createAccount(@Valid @RequestBody CustomerDto customerDto) {
+        iAccountsService.createAccount(customerDto);
+        return ResponseEntity
+                .status(HttpStatus.CREATED)
+                .body(new ResponseDto(AccountsConstants.STATUS_201, AccountsConstants.MESSAGE_201));
     }
 }
