@@ -1,7 +1,6 @@
 package com.eazybytes.account.dto;
 
 
-
 import lombok.*;
 
 @Data
