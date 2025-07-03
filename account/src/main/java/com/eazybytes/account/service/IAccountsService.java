@@ -20,7 +20,7 @@ public interface IAccountsService {
      * @param customerDto - CustomerDto Object
      * @return boolean indicating if the update of Account details is successful or not
      */
-    //boolean updateAccount(CustomerDto customerDto);
+     boolean updateAccount(CustomerDto customerDto);
 
     /**
      * @param mobileNumber - Input Mobile Number
