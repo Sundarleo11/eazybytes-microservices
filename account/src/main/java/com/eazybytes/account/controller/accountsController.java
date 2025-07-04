@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 @Validated
 public class AccountsController {
 
-    @Autowired
+
     private IAccountsService iAccountsService;
 
     @PostMapping("/create")

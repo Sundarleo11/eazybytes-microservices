@@ -12,10 +12,10 @@ public class ErrorResponseDto {
 
     private String apiPath;
 
-    private HttpStatus errorcode;
+    private HttpStatus errorCode;
 
     private String errorMessage;
 
-    private LocalDateTime erroTime;
+    private LocalDateTime errorTime;
 
 }
