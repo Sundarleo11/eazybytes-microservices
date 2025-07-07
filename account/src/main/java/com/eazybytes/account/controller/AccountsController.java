@@ -1,6 +1,7 @@
 package com.eazybytes.account.controller;
 
 import com.eazybytes.account.constants.AccountsConstants;
+import com.eazybytes.account.dto.AccountsContactInfoDto;
 import com.eazybytes.account.dto.CustomerDto;
 import com.eazybytes.account.dto.ErrorResponseDto;
 import com.eazybytes.account.dto.ResponseDto;
@@ -43,6 +44,9 @@ public class AccountsController {
 
     @Autowired
     private Environment environment;
+
+    @Autowired
+    private AccountsContactInfoDto accountsContactInfoDto;
 
     @Operation(
             summary = "Create Account REST API",
@@ -173,6 +177,32 @@ public class AccountsController {
 
 
     @Operation(
+            summary = "Get Build information",
+            description = "Get Build information that is deployed into cards microservice"
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTP Status OK"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP Status Internal Server Error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    }
+    )
+    @GetMapping("/build-info")
+    public ResponseEntity<String> getBuildInfo() {
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(buildVersion);
+    }
+
+
+    @Operation(
             summary = "Get Contact Info",
             description = "Contact Info details that can be reached out in case of any issues"
     )
@@ -191,10 +221,10 @@ public class AccountsController {
     }
     )
     @GetMapping("/contact-info")
-    public ResponseEntity<String> getContactInfo() {
+    public ResponseEntity<AccountsContactInfoDto> getContactInfo() {
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(buildVersion);
+                .body(accountsContactInfoDto);
     }
 
 

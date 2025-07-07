@@ -2,6 +2,7 @@ package com.easybytes.cards.controller;
 
 
 import com.easybytes.cards.constants.CardsConstants;
+import com.easybytes.cards.dto.CardsContactInfoDto;
 import com.easybytes.cards.dto.CardsDto;
 import com.easybytes.cards.dto.ErrorResponseDto;
 import com.easybytes.cards.dto.ResponseDto;
@@ -47,6 +48,9 @@ public class CardsController {
 
     @Autowired
     private Environment environment;
+
+    @Autowired
+    private CardsContactInfoDto cardsContactInfoDto;
 
     @Operation(
             summary = "Create Card REST API",
@@ -175,6 +179,32 @@ public class CardsController {
 
 
     @Operation(
+            summary = "Get Build information",
+            description = "Get Build information that is deployed into cards microservice"
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTP Status OK"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP Status Internal Server Error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    }
+    )
+    @GetMapping("/build-info")
+    public ResponseEntity<String> getBuildInfo() {
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(buildVersion);
+    }
+
+
+    @Operation(
             summary = "Get Contact Info",
             description = "Contact Info details that can be reached out in case of any issues"
     )
@@ -193,10 +223,10 @@ public class CardsController {
     }
     )
     @GetMapping("/contact-info")
-    public ResponseEntity<String> getContactInfo() {
+    public ResponseEntity<CardsContactInfoDto> getContactInfo() {
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(buildVersion);
+                .body(cardsContactInfoDto);
     }
 
 

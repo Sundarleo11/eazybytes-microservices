@@ -3,6 +3,7 @@ package com.easybytes.loan.controller;
 
 import com.easybytes.loan.constants.LoansConstants;
 import com.easybytes.loan.dto.ErrorResponseDto;
+import com.easybytes.loan.dto.LoansContactInfoDto;
 import com.easybytes.loan.dto.LoansDto;
 import com.easybytes.loan.dto.ResponseDto;
 import com.easybytes.loan.service.ILoansService;
@@ -34,11 +35,10 @@ import org.springframework.web.bind.annotation.*;
 public class LoansController {
 
 
-
     private final ILoansService iLoansService;
 
     public LoansController(ILoansService iLoansService) {
-        this.iLoansService=iLoansService;
+        this.iLoansService = iLoansService;
     }
 
     @Value("${build.version}")
@@ -46,6 +46,9 @@ public class LoansController {
 
     @Autowired
     private Environment environment;
+
+    @Autowired
+    private LoansContactInfoDto loansContactInfoDto;
 
     @Operation(
             summary = "Create Loan REST API",
@@ -177,6 +180,33 @@ public class LoansController {
         }
     }
 
+
+    @Operation(
+            summary = "Get Build information",
+            description = "Get Build information that is deployed into cards microservice"
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTP Status OK"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP Status Internal Server Error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    }
+    )
+    @GetMapping("/build-info")
+    public ResponseEntity<String> getBuildInfo() {
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(buildVersion);
+    }
+
+
     @Operation(
             summary = "Get Contact Info",
             description = "Contact Info details that can be reached out in case of any issues"
@@ -196,10 +226,10 @@ public class LoansController {
     }
     )
     @GetMapping("/contact-info")
-    public ResponseEntity<String> getContactInfo() {
+    public ResponseEntity<LoansContactInfoDto> getContactInfo() {
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(buildVersion);
+                .body(loansContactInfoDto);
     }
 
     @Operation(
