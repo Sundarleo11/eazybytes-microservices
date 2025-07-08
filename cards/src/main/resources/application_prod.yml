@@ -6,11 +6,11 @@ spring:
 build:
   version: "1.0"
 
-accounts:
-  message: "Welcome to EazyBank accounts related prod APIs "
+cards:
+  message: "Welcome to EazyBank cards related prod APIs "
   contactDetails:
-    name: "Reine Aishwarya - Product Owner"
-    email: "aishwarya@eazybank.com"
+    name: "Sandra Harald - Product Owner"
+    email: "sandra@eazybank.com"
   onCallSupport:
-    - (453) 392-4829
-    - (236) 203-0384
+    - (617) 432-2356
+    - (936) 564-8721
