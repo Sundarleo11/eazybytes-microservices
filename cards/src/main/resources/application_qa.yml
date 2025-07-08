@@ -6,11 +6,11 @@ spring:
 build:
   version: "2.0"
 
-accounts:
-  message: "Welcome to EazyBank accounts related QA APIs "
+cards:
+  message: "Welcome to EazyBank cards related QA APIs "
   contactDetails:
-    name: "Smitha Ray - QA Lead"
-    email: "smitha@eazybank.com"
+    name: "Cherryl Pankaj - QA Lead"
+    email: "cherryl@eazybank.com"
   onCallSupport:
-    - (666) 265-3765
-    - (666) 734-8371
+    - (310) 875-4367
+    - (201) 236-1267
