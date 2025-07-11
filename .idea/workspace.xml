@@ -6,9 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="776d1342-4477-4983-a8d8-2e013eb34c84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/dto/AccountsContactInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/dto/AccountsContactInfoDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/easybytes/cards/dto/CardsContactInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/java/com/easybytes/cards/dto/CardsContactInfoDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/src/main/java/com/easybytes/loan/dto/LoansContactInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/java/com/easybytes/loan/dto/LoansContactInfoDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +38,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AccountApplication.executor": "Run",
-    "Application.CardsApplication.executor": "Debug",
+    "Application.CardsApplication.executor": "Run",
     "Application.ConfigserverApplication.executor": "Run",
     "Application.LoanApplication.executor": "Run",
+    "Maven.account [clean,install].executor": "Run",
     "Maven.loan [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -53,10 +61,11 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LoanApplication">
+  <component name="RunManager" selected="Application.AccountApplication">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eazybytes.account.AccountApplication" />
       <module name="account" />
+      <option name="VM_PARAMETERS" value="-Dspring.profile.active=prod" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eazybytes.account.*" />
@@ -106,12 +115,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AccountApplication" />
+      <item itemvalue="Application.CardsApplication" />
+      <item itemvalue="Application.ConfigserverApplication" />
+      <item itemvalue="Application.LoanApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LoanApplication" />
-        <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.AccountApplication" />
         <item itemvalue="Application.ConfigserverApplication" />
+        <item itemvalue="Application.LoanApplication" />
+        <item itemvalue="Application.CardsApplication" />
       </list>
     </recent_temporary>
   </component>
