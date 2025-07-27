@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="776d1342-4477-4983-a8d8-2e013eb34c84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Docker-compose/Prod/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-compose/Prod/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-compose/QA/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-compose/QA/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker-compose/Default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/Default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +41,7 @@
     "Maven.loan [spring-boot:build-image].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/springCloud",
+    "git-widget-placeholder": "feature/mysql-migration",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/workspace/eazybytes-microservices/Docker-compose/QA"
   }
@@ -69,17 +64,6 @@
       <set>
         <option value="Application" />
       </set>
-    </option>
-    <option name="hiddenConfigurations">
-      <map>
-        <entry key="Application">
-          <value>
-            <set>
-              <option value="ConfigserverApplication" />
-            </set>
-          </value>
-        </entry>
-      </map>
     </option>
   </component>
   <component name="RunManager" selected="Application.ConfigserverApplication">
