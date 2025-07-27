@@ -43,8 +43,8 @@ public class CardsController {
         this.iCardsService = iCardsService;
     }
 
-    @Value("${build.version}")
-    private String buildVersion;
+  //  @Value("${build.version}")
+  //  private String buildVersion;
 
     @Autowired
     private Environment environment;
@@ -178,7 +178,7 @@ public class CardsController {
     }
 
 
-    @Operation(
+/*    @Operation(
             summary = "Get Build information",
             description = "Get Build information that is deployed into cards microservice"
     )
@@ -201,7 +201,7 @@ public class CardsController {
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .body(buildVersion);
-    }
+    }*/
 
 
     @Operation(
