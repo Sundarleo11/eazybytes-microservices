@@ -102,7 +102,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-                     <name>leos12/${project.artifactId}:0001</name>
+                     <name>leos12/${project.artifactId}:v2</name>
 					</image>
 				</configuration>
 			</plugin>
