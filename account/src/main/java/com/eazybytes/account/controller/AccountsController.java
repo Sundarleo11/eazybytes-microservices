@@ -39,8 +39,8 @@ public class AccountsController {
         this.iAccountsService = iAccountsService;
     }
 
-    @Value("${build.version}")
-    private String buildVersion;
+  //  @Value("${build.version}")
+  //  private String buildVersion;
 
     @Autowired
     private Environment environment;
@@ -176,7 +176,7 @@ public class AccountsController {
     }
 
 
-    @Operation(
+   /* @Operation(
             summary = "Get Build information",
             description = "Get Build information that is deployed into cards microservice"
     )
@@ -199,7 +199,7 @@ public class AccountsController {
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .body(buildVersion);
-    }
+    }*/
 
 
     @Operation(
