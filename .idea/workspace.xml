@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="776d1342-4477-4983-a8d8-2e013eb34c84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Docker-compose/Prod/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-compose/Prod/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-compose/QA/common-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docker-compose/QA/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker-compose/Default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/Default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/springCloud" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -46,7 +52,7 @@
     "Maven.loan [spring-boot:build-image].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/springCloud",
+    "git-widget-placeholder": "rabbitmq/removed",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/workspace/eazybytes-microservices/Docker-compose/QA"
   }
@@ -82,7 +88,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConfigserverApplication">
+  <component name="RunManager" selected="Application.CardsApplication">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eazybytes.account.AccountApplication" />
       <module name="account" />
@@ -144,10 +150,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConfigserverApplication" />
         <item itemvalue="Application.LoanApplication" />
         <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.AccountApplication" />
+        <item itemvalue="Application.ConfigserverApplication" />
       </list>
     </recent_temporary>
   </component>
