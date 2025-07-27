@@ -41,8 +41,8 @@ public class LoansController {
         this.iLoansService = iLoansService;
     }
 
-    @Value("${build.version}")
-    private String buildVersion;
+  //  @Value("${build.version}")
+  //  private String buildVersion;
 
     @Autowired
     private Environment environment;
@@ -181,7 +181,7 @@ public class LoansController {
     }
 
 
-    @Operation(
+ /*    @Operation(
             summary = "Get Build information",
             description = "Get Build information that is deployed into cards microservice"
     )
@@ -204,7 +204,7 @@ public class LoansController {
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .body(buildVersion);
-    }
+    }*/
 
 
     @Operation(

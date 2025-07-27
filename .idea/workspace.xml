@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="776d1342-4477-4983-a8d8-2e013eb34c84" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker-compose/Default/common-config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker-compose/Default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/controller/AccountsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/java/com/easybytes/cards/controller/CardsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/java/com/easybytes/cards/controller/CardsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/src/main/java/com/easybytes/loan/controller/LoansController.java" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/java/com/easybytes/loan/controller/LoansController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +28,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AccountApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CardsApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConfigserverApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoanApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.account [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.loan [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/springCloud&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace/eazybytes-microservices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AccountApplication.executor": "Run",
+    "Application.CardsApplication.executor": "Run",
+    "Application.ConfigserverApplication.executor": "Run",
+    "Application.LoanApplication.executor": "Run",
+    "Maven.account [clean,install].executor": "Run",
+    "Maven.cards [clean,install].executor": "Run",
+    "Maven.loan [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/springCloud",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/eazybytes-microservices"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
