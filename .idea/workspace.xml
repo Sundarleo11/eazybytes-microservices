@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="776d1342-4477-4983-a8d8-2e013eb34c84" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="b1bce657-0b5e-44ec-b4ab-ff6234e0fb75" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/resources/application.yml" afterDir="false" />
     </list>
@@ -22,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/springCloud" />
+        <entry key="$PROJECT_DIR$" value="feature/mysql-migration" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,7 +27,7 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2zb0HZkWEqYFgi7TZ2kuqjj6fnv" />
+  <component name="ProjectId" id="30T4i6LhfmJoz26KKIf2A2avaa9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,35 +39,15 @@
     "Application.ConfigserverApplication.executor": "Run",
     "Application.LoanApplication.executor": "Run",
     "Maven.account [clean,install].executor": "Run",
-    "Maven.account [spring-boot:build-image].executor": "Run",
-    "Maven.cards [clean,install].executor": "Run",
-    "Maven.cards [clean].executor": "Run",
-    "Maven.cards [spring-boot:build-image].executor": "Run",
-    "Maven.configserver [spring-boot:build-image].executor": "Run",
-    "Maven.loan [clean,install].executor": "Run",
-    "Maven.loan [spring-boot:build-image].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-<<<<<<< HEAD
-    "git-widget-placeholder": "feature/mysql-migration",
-=======
-    "git-widget-placeholder": "rabbitmq/removed",
->>>>>>> 4da5b167137d86109ded5ffcbce647ff0251ba84
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/workspace/eazybytes-microservices/Docker-compose/QA"
+    "git-widget-placeholder": "mysql-migration",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\eazybytes-microservices\Docker-compose\QA" />
-      <recent name="D:\workspace\eazybytes-microservices\Docker-compose\Prod" />
-    </key>
-  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean" />
       <command value="mvn clean install" />
-      <command value="mvn spring-boot:build-image" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -80,12 +56,24 @@
         <option value="Application" />
       </set>
     </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="Application">
+          <value>
+            <set>
+              <option value="AccountApplication" />
+              <option value="CardsApplication" />
+              <option value="LoanApplication" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="RunManager" selected="Application.CardsApplication">
+  <component name="RunManager" selected="Application.LoanApplication">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eazybytes.account.AccountApplication" />
       <module name="account" />
-      <option name="VM_PARAMETERS" value="-Dspring.profile.active=prod" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.eazybytes.account.*" />
@@ -135,12 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.AccountApplication" />
-      <item itemvalue="Application.CardsApplication" />
-      <item itemvalue="Application.ConfigserverApplication" />
-      <item itemvalue="Application.LoanApplication" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.LoanApplication" />
@@ -153,11 +135,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="776d1342-4477-4983-a8d8-2e013eb34c84" name="Changes" comment="" />
-      <created>1751984379170</created>
+      <changelist id="b1bce657-0b5e-44ec-b4ab-ff6234e0fb75" name="Changes" comment="" />
+      <created>1753638354550</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1751984379170</updated>
+      <updated>1753638354550</updated>
     </task>
     <servers />
   </component>
