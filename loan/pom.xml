@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.easybytes</groupId>
-	<artifactId>loan</artifactId>
+	<artifactId>loans</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>loan</name>
@@ -107,7 +107,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-                     <name>leos12/${project.artifactId}:v2</name>
+                     <name>leos12/${project.artifactId}:v3</name>
 					</image>
 				</configuration>
 			</plugin>

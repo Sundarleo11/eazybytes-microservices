@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1bce657-0b5e-44ec-b4ab-ff6234e0fb75" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Docker-compose/Default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/Default/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker-compose/Default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/Default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker-compose/Prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/Prod/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker-compose/Prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/Prod/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker-compose/QA/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/QA/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker-compose/QA/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/QA/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +43,29 @@
     "Application.ConfigserverApplication.executor": "Run",
     "Application.LoanApplication.executor": "Run",
     "Maven.account [clean,install].executor": "Run",
+    "Maven.account [clean,package].executor": "Run",
+    "Maven.account [clean].executor": "Run",
+    "Maven.cards [clean,install].executor": "Run",
+    "Maven.configserver [clean].executor": "Run",
+    "Maven.loan [clean,install].executor": "Run",
+    "Maven.loan [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "mysql-migration",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/eazybytes-microservices/Docker-compose/QA"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\eazybytes-microservices\Docker-compose\QA" />
+      <recent name="D:\workspace\eazybytes-microservices\Docker-compose\Prod" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean package" />
       <command value="mvn clean install" />
     </option>
   </component>
@@ -70,7 +89,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LoanApplication">
+  <component name="RunManager" selected="Application.AccountApplication">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eazybytes.account.AccountApplication" />
       <module name="account" />
@@ -123,12 +142,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LoanApplication" />
-        <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.AccountApplication" />
         <item itemvalue="Application.ConfigserverApplication" />
+        <item itemvalue="Application.LoanApplication" />
+        <item itemvalue="Application.CardsApplication" />
       </list>
     </recent_temporary>
   </component>
