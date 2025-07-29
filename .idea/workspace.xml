@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45dc5e-960c-4e14-9b56-e19241384635" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/eazybytes-microservices.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurakaserver/src/main/java/com/eazybytes/eurakaserver/EurakaserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurakaserver/src/main/java/com/eazybytes/eurakaserver/EurakaserverApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurakaserver/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eurakaserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +20,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="30Xw7nkRXXRHwHMTQUKJMS5BtXd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,13 +31,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AccountApplication.executor": "Run",
     "Application.ConfigserverApplication.executor": "Run",
+    "Application.EurakaserverApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "feature/service-discover",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CardsApplication">
+    <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.account.AccountApplication" />
+      <module name="account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.easybytes.cards.CardsApplication" />
+      <module name="cards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easybytes.cards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.easybyte.configserver.ConfigserverApplication" />
       <module name="configserver" />
@@ -53,8 +79,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurakaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.eurakaserver.EurakaserverApplication" />
+      <module name="eurakaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.eurakaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.easybytes.loan.LoanApplication" />
+      <module name="loan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easybytes.loan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CardsApplication" />
+        <item itemvalue="Application.LoanApplication" />
+        <item itemvalue="Application.AccountApplication" />
+        <item itemvalue="Application.EurakaserverApplication" />
         <item itemvalue="Application.ConfigserverApplication" />
       </list>
     </recent_temporary>
@@ -69,5 +125,8 @@
       <updated>1753787062466</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
