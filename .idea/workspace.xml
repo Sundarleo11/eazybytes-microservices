@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45dc5e-960c-4e14-9b56-e19241384635" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/dto/CardsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/dto/CustomerDetailsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/dto/LoansDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/service/ICustomersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/service/client/CardsFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/service/client/LoansFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/service/impl/CustomersServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/mapper/CustomerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurakaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurakaserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

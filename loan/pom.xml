@@ -101,7 +101,7 @@
 	</dependencyManagement>
 	<build>
 		<plugins>
-			<plugin>
+			<!--<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
@@ -109,7 +109,7 @@
                      <name>leos12/${project.artifactId}:v2</name>
 					</image>
 				</configuration>
-			</plugin>
+			</plugin> using maven to create docker container -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -122,6 +122,16 @@
 							<version>${lombok.version}</version>
 						</path>
 					</annotationProcessorPaths>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.2</version>
+				<configuration>
+					<to>
+						<image>leos12/${project.artifactId}:v4</image>
+					</to>
 				</configuration>
 			</plugin>
 		</plugins>
