@@ -125,7 +125,7 @@
                 <version>3.4.2</version>
                 <configuration>
                     <to>
-                        <image>leos12/${project.artifactId}:0001</image>
+                        <image>leos12/${project.artifactId}:v4</image>
                     </to>
                 </configuration>
             </plugin>
