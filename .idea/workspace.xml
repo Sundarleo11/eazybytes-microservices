@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45dc5e-960c-4e14-9b56-e19241384635" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/dto/CardsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/dto/CustomerDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/dto/LoansDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/service/ICustomersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/service/client/CardsFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/service/client/LoansFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/service/impl/CustomersServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/mapper/CustomerMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +36,28 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AccountApplication.executor": "Run",
+    "Application.CardsApplication.executor": "Run",
     "Application.ConfigserverApplication.executor": "Run",
     "Application.EurakaserverApplication.executor": "Run",
+    "Application.LoanApplication.executor": "Run",
+    "Maven.account [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "feature/service-discover",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CardsApplication">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eazybytes.account.dto" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AccountApplication">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eazybytes.account.AccountApplication" />
       <module name="account" />
@@ -107,9 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccountApplication" />
         <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.LoanApplication" />
-        <item itemvalue="Application.AccountApplication" />
         <item itemvalue="Application.EurakaserverApplication" />
         <item itemvalue="Application.ConfigserverApplication" />
       </list>
