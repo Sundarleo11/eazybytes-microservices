@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/cards/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/configserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurakaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/getwayserer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/getwayserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/loan/src/main/java" charset="UTF-8" />
   </component>
 </project>
