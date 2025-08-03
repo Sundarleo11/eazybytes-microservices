@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/account/pom.xml" />
         <option value="$PROJECT_DIR$/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/eurakaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/getwayserver/pom.xml" />
+        <option value="$PROJECT_DIR$/getwayserer/pom.xml" />
       </list>
     </option>
   </component>

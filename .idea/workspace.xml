@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45dc5e-960c-4e14-9b56-e19241384635" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Docker-compose/Default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/Default/common-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker-compose/Default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/Default/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker-compose/Prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/Prod/common-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker-compose/Prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/Prod/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker-compose/QA/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/QA/common-config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docker-compose/QA/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/QA/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurakaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurakaserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +17,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/service-discover" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -35,12 +46,17 @@
     "Application.CardsApplication.executor": "Run",
     "Application.ConfigserverApplication.executor": "Run",
     "Application.EurakaserverApplication.executor": "Run",
+    "Application.GetwaysererApplication.executor": "Run",
+    "Application.GetwayserverApplication.executor": "Run",
     "Application.LoanApplication.executor": "Run",
     "Maven.account [clean,install].executor": "Run",
+    "Maven.eurakaserver [spring-boot:run].executor": "Run",
+    "Maven.getwayserver [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/service-discover",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "feature/getway-cross-cutting-routting",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/eazybytes-microservices/cards"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -51,9 +67,17 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
+      <command value="mvn spring-boot:run" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.AccountApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CardsApplication">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eazybytes.account.AccountApplication" />
       <module name="account" />
@@ -80,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.easybyte.configserver.ConfigserverApplication" />
-      <module name="configserver" />
+    <configuration name="EurakaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.eurakaserver.EurakaserverApplication" />
+      <module name="eurakaserver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.easybyte.configserver.*" />
+          <option name="PATTERN" value="com.eazybytes.eurakaserver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurakaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eazybytes.eurakaserver.EurakaserverApplication" />
-      <module name="eurakaserver" />
+    <configuration name="GetwaysererApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.easybytes.getewaysever.GetwaysererApplication" />
+      <module name="getwayserer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eazybytes.eurakaserver.*" />
+          <option name="PATTERN" value="com.easybytes.getewaysever.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AccountApplication" />
         <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.LoanApplication" />
+        <item itemvalue="Application.AccountApplication" />
+        <item itemvalue="Application.GetwaysererApplication" />
         <item itemvalue="Application.EurakaserverApplication" />
-        <item itemvalue="Application.ConfigserverApplication" />
       </list>
     </recent_temporary>
   </component>
