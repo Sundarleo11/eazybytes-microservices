@@ -65,4 +65,4 @@ logging:
   level:
     com:
       eazybytes:
-        account: DEBUG
+        accounts: DEBUG

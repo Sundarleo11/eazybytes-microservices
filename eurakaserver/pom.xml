@@ -12,7 +12,7 @@
 	<artifactId>eurakaserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>eurakaserver</name>
-	<description>Service Discovery agent for easy bank microservice   </description>
+	<description>Service Discovery agent for easy bank microservice</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -74,7 +74,7 @@
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>leos12/${project.artifactId}:v5</image>
+						<image>leos12/${project.artifactId}:v6</image>
 					</to>
 				</configuration>
 			</plugin>

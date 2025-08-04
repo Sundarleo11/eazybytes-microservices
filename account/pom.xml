@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.eazybytes</groupId>
-    <artifactId>account</artifactId>
+    <artifactId>accounts</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>account</name>
+    <name>accounts</name>
     <description>microservices for accounts</description>
     <url/>
     <licenses>
@@ -129,7 +129,7 @@
                 <version>3.4.2</version>
                 <configuration>
                     <to>
-                        <image>leos12/${project.artifactId}:v5</image>
+                        <image>leos12/${project.artifactId}:v6</image>
                     </to>
                 </configuration>
             </plugin>

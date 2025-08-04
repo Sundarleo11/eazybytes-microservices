@@ -8,10 +8,11 @@
 		<version>3.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.easybytes</groupId>
-	<artifactId>getwayserer</artifactId>
+	<artifactId>gatewayserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>getwayserer</name>
+	<name>gatewayserver</name>
 	<description>Edge server for easy bank for microservice</description>
 	<url/>
 	<licenses>
@@ -89,7 +90,7 @@
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>leos12/${project.artifactId}:v5</image>
+						<image>leos12/${project.artifactId}:v6</image>
 					</to>
 				</configuration>
 			</plugin>
