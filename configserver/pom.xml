@@ -76,7 +76,7 @@
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>leos12/${project.artifactId}:v5</image>
+						<image>leos12/${project.artifactId}:v6</image>
 					</to>
 				</configuration>
 			</plugin>
