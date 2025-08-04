@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f45dc5e-960c-4e14-9b56-e19241384635" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurakaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurakaserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getwayserer/src/main/java/com/easybytes/getewaysever/GetwaysererApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/getwayserer/src/main/java/com/easybytes/getewaysever/GetwaysererApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getwayserer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/getwayserer/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +20,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/getwayserer/src/main/java/com/easybytes/getewaysever/GetwaysererApplication.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -40,25 +40,25 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AccountApplication.executor": "Run",
-    "Application.CardsApplication.executor": "Run",
-    "Application.ConfigserverApplication.executor": "Run",
-    "Application.EurakaserverApplication.executor": "Run",
-    "Application.GetwaysererApplication.executor": "Run",
-    "Application.GetwayserverApplication.executor": "Run",
-    "Application.LoanApplication.executor": "Run",
-    "Maven.account [clean,install].executor": "Run",
-    "Maven.eurakaserver [spring-boot:run].executor": "Run",
-    "Maven.getwayserver [clean,install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/getway-cross-cutting-routting",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/workspace/eazybytes-microservices/cards"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccountApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CardsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConfigserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EurakaserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetwaysererApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetwayserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoanApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.account [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.eurakaserver [spring-boot:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.getwayserver [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/getway-cross-cutting-routting&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace/eazybytes-microservices/cards&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.eazybytes.account.dto" />
@@ -77,7 +77,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CardsApplication">
+  <component name="RunManager" selected="Application.GetwaysererApplication">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eazybytes.account.AccountApplication" />
       <module name="account" />
@@ -145,10 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CardsApplication" />
-        <item itemvalue="Application.LoanApplication" />
-        <item itemvalue="Application.AccountApplication" />
         <item itemvalue="Application.GetwaysererApplication" />
+        <item itemvalue="Application.AccountApplication" />
+        <item itemvalue="Application.LoanApplication" />
+        <item itemvalue="Application.CardsApplication" />
         <item itemvalue="Application.EurakaserverApplication" />
       </list>
     </recent_temporary>
