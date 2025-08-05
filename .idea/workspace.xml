@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc90cb4-0438-4917-bab4-8430ab777f12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurakaserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eurakaserver/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatewaysever/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewaysever/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatewaysever/src/main/java/com/easybytes/gatewaysever/GatwayseverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewaysever/src/main/java/com/easybytes/gatewaysever/GatwayseverApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatewaysever/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewaysever/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getwayserer/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getwayserer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getwayserer/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getwayserer/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getwayserer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getwayserer/src/main/java/com/easybytes/getewaysever/GetwaysererApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getwayserer/src/main/java/com/easybytes/getewaysever/filters/FilterUtility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getwayserer/src/main/java/com/easybytes/getewaysever/filters/RequestTraceFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getwayserer/src/main/java/com/easybytes/getewaysever/filters/ResponseTraceFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getwayserer/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/getwayserer/src/test/java/com/easybytes/getewaysever/GetwaysererApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +28,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AccountApplication.executor": "Debug",
+    "Application.ConfigserverApplication.executor": "Run",
+    "Application.EurakaserverApplication.executor": "Run",
+    "Application.GatwayseverApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "feature/Reailient",
@@ -49,6 +39,19 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.GatwayseverApplication">
+    <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eazybytes.account.AccountApplication" />
+      <module name="accounts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eazybytes.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.easybyte.configserver.ConfigserverApplication" />
       <module name="configserver" />
@@ -91,6 +94,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.GatwayseverApplication" />
+        <item itemvalue="Application.AccountApplication" />
         <item itemvalue="Application.EurakaserverApplication" />
         <item itemvalue="Application.ConfigserverApplication" />
       </list>
@@ -106,5 +110,21 @@
       <updated>1754321388781</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/controller/AccountsController.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account/src/main/java/com/eazybytes/account/controller/AccountsController.java</url>
+          <line>226</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
