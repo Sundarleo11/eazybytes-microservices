@@ -65,6 +65,5 @@ info:
 
 logging:
   level:
-    com:
-      easybytes:
-        loans: DEBUG
+    root: DEBUG
+
