@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbc90cb4-0438-4917-bab4-8430ab777f12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Docker-compose/observability/loki/loki-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Docker-compose/observability/prometheus/prometheus.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker-compose/Prod/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/Prod/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker-compose/Prod/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Docker-compose/Prod/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurakaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurakaserver/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatewaysever/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewaysever/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewaysever/src/main/java/com/easybytes/gatewaysever/GatwayseverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewaysever/src/main/java/com/easybytes/gatewaysever/GatwayseverApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatewaysever/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewaysever/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loan/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,20 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AccountApplication.executor": "Run",
-    "Application.CardsApplication.executor": "Run",
-    "Application.ConfigserverApplication.executor": "Run",
-    "Application.EurakaserverApplication.executor": "Run",
-    "Application.GatwayseverApplication.executor": "Run",
-    "Application.LoanApplication.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/Reailient",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AccountApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CardsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConfigserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EurakaserverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GatwayseverApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoanApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/Reailient&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.GatwayseverApplication">
     <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eazybytes.account.AccountApplication" />
